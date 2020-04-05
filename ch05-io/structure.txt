@@ -1,0 +1,83 @@
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── examples
+    │   │   ├── FileDecompressor.java.input.txt
+    │   │   ├── MapFile-data-head.input.txt
+    │   │   ├── MapFile-data-head.output.txt
+    │   │   ├── MapFile-index.input.txt
+    │   │   ├── MapFile-index.output.txt
+    │   │   ├── MapFile-ls.input.txt
+    │   │   ├── MapFile-ls.output.txt
+    │   │   ├── MapFileWriteDemo.java.input.txt
+    │   │   ├── MaxTemperatureWithCompression
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000.gz
+    │   │   ├── MaxTemperatureWithMapOutputCompression.ignore
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   ├── SequenceFileMapReduceSort.java.input.txt
+    │   │   ├── SequenceFileMapReduceSortResults.java.input.txt
+    │   │   ├── SequenceFileMapReduceSortResults.java.output.txt
+    │   │   ├── SequenceFileMapReduceSortResults.java.pre.sh
+    │   │   ├── SequenceFileReadDemo.java.input.txt
+    │   │   ├── SequenceFileReadDemo.java.output.txt
+    │   │   ├── SequenceFileReadDemo.java.pre.sh
+    │   │   ├── SequenceFileToMapFileConverter-fix.java.input.txt
+    │   │   ├── SequenceFileToMapFileConverter-mv.java.input.txt
+    │   │   ├── SequenceFileToMapFileConverter-sort.java.input.txt
+    │   │   ├── SequenceFileWriteDemo.java.input.txt
+    │   │   ├── SequenceFileWriteDemo.java.output.txt
+    │   │   ├── StreamCompressor.java.input.txt
+    │   │   ├── StreamCompressor.java.output.txt
+    │   │   ├── TextIterator.java.input.txt
+    │   │   ├── TextIterator.java.output.txt
+    │   │   ├── hadoop-fs-text.input.txt
+    │   │   └── hadoop-fs-text.output.txt
+    │   └── java
+    │       ├── FileDecompressor.java
+    │       ├── IntPair.java
+    │       ├── MapFileFixer.java
+    │       ├── MapFileWriteDemo.java
+    │       ├── MaxTemperatureWithCompression.java
+    │       ├── MaxTemperatureWithMapOutputCompression.java
+    │       ├── PooledStreamCompressor.java
+    │       ├── SequenceFileReadDemo.java
+    │       ├── SequenceFileWriteDemo.java
+    │       ├── StreamCompressor.java
+    │       ├── TextArrayWritable.java
+    │       ├── TextIterator.java
+    │       ├── TextPair.java
+    │       └── oldapi
+    │           ├── IntPair.java
+    │           ├── MaxTemperatureWithCompression.java
+    │           ├── MaxTemperatureWithMapOutputCompression.java
+    │           └── TextPair.java
+    └── test
+        ├── java
+        │   ├── ArrayWritableTest.java
+        │   ├── BinaryOrTextWritable.java
+        │   ├── BooleanWritableTest.java
+        │   ├── BytesWritableTest.java
+        │   ├── FileDecompressorTest.java
+        │   ├── GenericWritableTest.java
+        │   ├── IntPairTest.java
+        │   ├── IntWritableTest.java
+        │   ├── MapFileSeekTest.java
+        │   ├── MapWritableTest.java
+        │   ├── NullWritableTest.java
+        │   ├── ObjectWritableTest.java
+        │   ├── SequenceFileSeekAndSyncTest.java
+        │   ├── StringTextComparisonTest.java
+        │   ├── TextPairTest.java
+        │   ├── TextTest.java
+        │   ├── VIntWritableTest.java
+        │   ├── VLongWritableTest.java
+        │   └── WritableTestBase.java
+        └── resources
+            └── file.gz
+
+12 directories, 68 files

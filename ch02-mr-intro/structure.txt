@@ -1,0 +1,57 @@
+├── pom.xml
+└── src
+    └── main
+        ├── awk
+        │   └── max_temperature.sh
+        ├── cpp
+        │   ├── Makefile
+        │   └── max_temperature.cpp
+        ├── examples
+        │   ├── MaxTemperature
+        │   │   ├── input.txt
+        │   │   └── output
+        │   │       └── part-r-00000
+        │   ├── MaxTemperatureWithCombiner
+        │   │   ├── input.txt
+        │   │   └── output
+        │   │       └── part-r-00000
+        │   ├── OldMaxTemperature
+        │   │   ├── input.txt
+        │   │   └── output
+        │   │       └── part-00000
+        │   ├── max_temperature.cpp.input.txt
+        │   ├── max_temperature_hadoop.input.txt
+        │   ├── max_temperature_hadoop_cluster.input.txt
+        │   └── max_temperature_py
+        │       ├── 2
+        │       │   ├── input.txt
+        │       │   └── output
+        │       │       └── part-00000
+        │       ├── input.txt
+        │       ├── output
+        │       │   └── part-r-00000
+        │       └── pseudo
+        │           ├── input.txt
+        │           └── output
+        │               └── part-00000
+        ├── java
+        │   ├── MaxTemperature.java
+        │   ├── MaxTemperatureMapper.java
+        │   ├── MaxTemperatureReducer.java
+        │   ├── MaxTemperatureWithCombiner.java
+        │   ├── OldMaxTemperature.java
+        │   └── oldapi
+        │       ├── MaxTemperature.java
+        │       ├── MaxTemperatureMapper.java
+        │       ├── MaxTemperatureReducer.java
+        │       └── MaxTemperatureWithCombiner.java
+        ├── python
+        │   ├── max_temperature_map.py
+        │   └── max_temperature_reduce.py
+        ├── ruby
+        │   ├── max_temperature_map.rb
+        │   └── max_temperature_reduce.rb
+        └── sh
+            └── max_temp.sh
+
+22 directories, 33 files

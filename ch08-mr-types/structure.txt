@@ -1,0 +1,142 @@
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── examples
+    │   │   ├── MaxTemperatureWithMultipleInputs
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   ├── MinimalMapReduce
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-00000
+    │   │   ├── MinimalMapReduce.java.input.txt
+    │   │   ├── MinimalMapReduceWithDefaults
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-00000
+    │   │   ├── PartitionByStationUsingMultipleOutputFormat.java.input.txt
+    │   │   ├── PartitionByStationUsingMultipleOutputs
+    │   │   │   ├── 2
+    │   │   │   │   ├── input.txt
+    │   │   │   │   └── output
+    │   │   │   │       ├── 029070-99999-r-00000
+    │   │   │   │       ├── 029500-99999-r-00000
+    │   │   │   │       ├── 029600-99999-r-00000
+    │   │   │   │       ├── 029720-99999-r-00000
+    │   │   │   │       ├── 029810-99999-r-00000
+    │   │   │   │       ├── 227070-99999-r-00000
+    │   │   │   │       └── part-r-00000
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       ├── 029070-99999-r-00000
+    │   │   │       ├── 029500-99999-r-00000
+    │   │   │       ├── 029600-99999-r-00000
+    │   │   │       ├── 029720-99999-r-00000
+    │   │   │       ├── 029810-99999-r-00000
+    │   │   │       ├── 227070-99999-r-00000
+    │   │   │       └── part-r-00000
+    │   │   ├── PartitionByStationYearUsingMultipleOutputs
+    │   │   │   ├── 2
+    │   │   │   │   ├── input.txt
+    │   │   │   │   └── output
+    │   │   │   │       ├── 029070-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       ├── 029500-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       ├── 029600-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       ├── 029720-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       ├── 029810-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       ├── 227070-99999
+    │   │   │   │       │   ├── 1901
+    │   │   │   │       │   │   └── part-r-00000
+    │   │   │   │       │   └── 1902
+    │   │   │   │       │       └── part-r-00000
+    │   │   │   │       └── part-r-00000
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       ├── 029070-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       ├── 029500-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       ├── 029600-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       ├── 029720-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       ├── 029810-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       ├── 227070-99999
+    │   │   │       │   ├── 1901
+    │   │   │       │   │   └── part-r-00000
+    │   │   │       │   └── 1902
+    │   │   │       │       └── part-r-00000
+    │   │   │       └── part-r-00000
+    │   │   ├── SmallFilesToSequenceFileConverter.ignore
+    │   │   │   └── input.txt
+    │   │   ├── SmallFilesToSequenceFileConverter.java.input.txt
+    │   │   ├── default_streaming.input.txt
+    │   │   └── minimal_streaming.input.txt
+    │   ├── java
+    │   │   ├── MaxTemperatureWithMultipleInputs.java
+    │   │   ├── MinimalMapReduce.java
+    │   │   ├── MinimalMapReduceWithDefaults.java
+    │   │   ├── NonSplittableTextInputFormat.java
+    │   │   ├── PartitionByStationUsingMultipleOutputs.java
+    │   │   ├── PartitionByStationYearUsingMultipleOutputs.java
+    │   │   ├── SmallFilesToSequenceFileConverter.java
+    │   │   ├── StationPartitioner.java
+    │   │   ├── WholeFileInputFormat.java
+    │   │   ├── WholeFileRecordReader.java
+    │   │   └── oldapi
+    │   │       ├── MaxTemperatureWithMultipleInputs.java
+    │   │       ├── MinimalMapReduce.java
+    │   │       ├── MinimalMapReduceWithDefaults.java
+    │   │       ├── NonSplittableTextInputFormat.java
+    │   │       ├── PartitionByStationUsingMultipleOutputFormat.java
+    │   │       ├── PartitionByStationUsingMultipleOutputs.java
+    │   │       ├── PartitionByStationYearUsingMultipleOutputFormat.java
+    │   │       ├── SmallFilesToSequenceFileConverter.java
+    │   │       ├── StationPartitioner.java
+    │   │       ├── WholeFileInputFormat.java
+    │   │       └── WholeFileRecordReader.java
+    │   └── sh
+    │       └── streaming.sh
+    └── test
+        └── java
+            └── TextInputFormatsTest.java
+
+59 directories, 80 files

@@ -1,0 +1,21 @@
+.
+├── hadoop
+│   └── pseudo-distributed
+│       ├── core-site.xml
+│       ├── hdfs-site.xml
+│       ├── mapred-site.xml
+│       └── yarn-site.xml
+├── hadoop-cluster.template.xml
+├── hadoop-local.xml
+├── hadoop-localhost.xml
+├── pig
+│   └── localhost
+│       └── pig.properties
+└── zookeeper
+    ├── cluster
+    │   └── zoo.cfg
+    ├── localhost
+    │   └── zoo.cfg
+    └── log4j.properties
+
+7 directories, 11 files

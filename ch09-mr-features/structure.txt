@@ -1,0 +1,97 @@
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── examples
+    │   │   ├── JoinRecordWithStationName
+    │   │   │   ├── 2
+    │   │   │   │   ├── input.txt
+    │   │   │   │   └── output
+    │   │   │   │       └── part-r-00000
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   ├── LookupRecordByTemperature.java.input.txt
+    │   │   ├── LookupRecordByTemperature.java.output.txt
+    │   │   ├── LookupRecordsByTemperature.java.input.txt
+    │   │   ├── LookupRecordsByTemperature.java.output.txt
+    │   │   ├── MaxTemperatureByStationNameUsingDistributedCacheFile.java.input.txt
+    │   │   ├── MaxTemperatureByStationNameUsingDistributedCacheFileApi.ignore
+    │   │   │   └── input.txt
+    │   │   ├── MaxTemperatureUsingSecondarySort
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   ├── MaxTemperatureWithCounters
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   ├── MaxTemperatureWithCounters.java.input.txt
+    │   │   ├── MissingTemperatureFields.java.input.txt
+    │   │   ├── SortByTemperatureToMapFile.ignore
+    │   │   │   └── input.txt
+    │   │   ├── SortByTemperatureUsingHashPartitioner.ignore
+    │   │   │   └── input.txt
+    │   │   ├── SortByTemperatureUsingHashPartitioner.java.input.txt
+    │   │   ├── SortByTemperatureUsingTotalOrderPartitioner.java.input.txt
+    │   │   ├── SortDataPreprocessor.ignore
+    │   │   │   └── input.txt
+    │   │   └── SortDataPreprocessor.java.input.txt
+    │   ├── java
+    │   │   ├── JoinRecordMapper.java
+    │   │   ├── JoinRecordWithStationName.java
+    │   │   ├── JoinReducer.java
+    │   │   ├── JoinStationMapper.java
+    │   │   ├── LookupRecordByTemperature.java
+    │   │   ├── LookupRecordsByTemperature.java
+    │   │   ├── MaxTemperatureByStationNameUsingDistributedCacheFile.java
+    │   │   ├── MaxTemperatureUsingSecondarySort.java
+    │   │   ├── MaxTemperatureWithCounters.java
+    │   │   ├── MissingTemperatureFields.java
+    │   │   ├── SortByTemperatureToMapFile.java
+    │   │   ├── SortByTemperatureUsingHashPartitioner.java
+    │   │   ├── SortByTemperatureUsingTotalOrderPartitioner.java
+    │   │   ├── SortDataPreprocessor.java
+    │   │   ├── TemperatureDistribution.java
+    │   │   └── oldapi
+    │   │       ├── JoinRecordMapper.java
+    │   │       ├── JoinRecordWithStationName.java
+    │   │       ├── JoinReducer.java
+    │   │       ├── JoinStationMapper.java
+    │   │       ├── LookupRecordByTemperature.java
+    │   │       ├── LookupRecordsByTemperature.java
+    │   │       ├── MaxTemperatureByStationNameUsingDistributedCacheFile.java
+    │   │       ├── MaxTemperatureByStationNameUsingDistributedCacheFileApi.java
+    │   │       ├── MaxTemperatureUsingSecondarySort.java
+    │   │       ├── MaxTemperatureWithCounters.java
+    │   │       ├── MissingTemperatureFields.java
+    │   │       ├── SortByTemperatureToMapFile.java
+    │   │       ├── SortByTemperatureUsingHashPartitioner.java
+    │   │       ├── SortByTemperatureUsingTotalOrderPartitioner.java
+    │   │       ├── SortDataPreprocessor.java
+    │   │       └── TemperatureDistribution.java
+    │   ├── python
+    │   │   ├── max_daily_temp_map.py
+    │   │   ├── max_daily_temp_reduce.py
+    │   │   ├── mean_max_daily_temp.sh
+    │   │   ├── mean_max_daily_temp_map.py
+    │   │   ├── mean_max_daily_temp_reduce.py
+    │   │   ├── secondary_sort.sh
+    │   │   ├── secondary_sort_map.py
+    │   │   └── secondary_sort_reduce.py
+    │   ├── r
+    │   │   ├── fixed-partitions
+    │   │   ├── output
+    │   │   ├── output_sorted
+    │   │   ├── sampled-partitions
+    │   │   ├── temperature_distribution.png
+    │   │   └── temperature_distribution.r
+    │   └── resources
+    │       ├── MaxTemperatureWithCounters_Temperature.properties
+    │       └── oldapi
+    │           └── MaxTemperatureWithCounters_Temperature.properties
+    └── test
+        └── java
+            └── KeyFieldBasedComparatorTest.java
+
+23 directories, 71 files

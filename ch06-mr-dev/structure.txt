@@ -1,0 +1,72 @@
+.
+├── input
+│   └── ncdc
+│       └── micro
+│           └── sample.txt
+├── output
+│   ├── _SUCCESS
+│   └── part-r-00000
+├── pom.xml
+└── src
+    ├── main
+    │   ├── examples
+    │   │   ├── ConfigurationPrinterSystem.java.input.txt
+    │   │   ├── ConfigurationPrinterWithConf.java.input.txt
+    │   │   ├── ConfigurationPrinterWithConf.java.output.txt
+    │   │   ├── ConfigurationPrinterWithConfAndD.java.input.txt
+    │   │   ├── ConfigurationPrinterWithD.java.input.txt
+    │   │   ├── ConfigurationPrinterWithD.java.output.txt
+    │   │   ├── MaxTemperatureDriver.java.input.txt
+    │   │   ├── MaxTemperatureDriverV2.ignore
+    │   │   │   └── input.txt
+    │   │   ├── MaxTemperatureDriverV2GOP.ignore
+    │   │   │   └── input.txt
+    │   │   ├── MaxTemperatureDriverV3
+    │   │   │   ├── input.txt
+    │   │   │   └── output
+    │   │   │       └── part-r-00000
+    │   │   └── MaxTemperatureDriverV3GOP
+    │   │       ├── input.txt
+    │   │       └── output
+    │   │           └── part-r-00000
+    │   ├── java
+    │   │   ├── ConfigurationPrinter.java
+    │   │   ├── LoggingDriver.java
+    │   │   ├── LoggingIdentityMapper.java
+    │   │   ├── v1
+    │   │   │   ├── MaxTemperatureMapper.java
+    │   │   │   └── MaxTemperatureReducer.java
+    │   │   ├── v2
+    │   │   │   ├── MaxTemperatureDriver.java
+    │   │   │   ├── MaxTemperatureMapper.java
+    │   │   │   └── NcdcRecordParser.java
+    │   │   ├── v3
+    │   │   │   ├── MaxTemperatureDriver.java
+    │   │   │   └── MaxTemperatureMapper.java
+    │   │   └── v4
+    │   │       ├── MaxTemperatureDriver.java
+    │   │       ├── MaxTemperatureMapper.java
+    │   │       └── NcdcRecordParser.java
+    │   └── resources
+    │       ├── configuration-1.xml
+    │       ├── configuration-2.xml
+    │       ├── max-temp-workflow
+    │       │   └── workflow.xml
+    │       └── max-temp-workflow.properties
+    └── test
+        ├── java
+        │   ├── MultipleResourceConfigurationTest.java
+        │   ├── SingleResourceConfigurationTest.java
+        │   ├── v1
+        │   │   ├── MaxTemperatureMapperTest.java
+        │   │   └── MaxTemperatureReducerTest.java
+        │   ├── v2
+        │   │   ├── MaxTemperatureDriverMiniTest.java
+        │   │   ├── MaxTemperatureDriverTest.java
+        │   │   └── MaxTemperatureMapperTest.java
+        │   └── v4
+        │       └── MaxTemperatureMapperTest.java
+        └── resources
+            └── expected.txt
+
+26 directories, 43 files

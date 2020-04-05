@@ -1,0 +1,138 @@
+.
+├── avro
+│   └── pairs.avro
+├── badrecords
+│   ├── a
+│   ├── b
+│   └── c
+├── docs
+│   ├── 1400-8.txt
+│   └── quangle.txt
+├── fileglob
+│   ├── 2007
+│   │   └── 12
+│   │       ├── 30
+│   │       │   ├── data-2007-12-30
+│   │       │   └── data[2007-12-30]
+│   │       └── 31
+│   │           └── data-2007-12-31
+│   └── 2008
+│       └── 01
+│           └── 01
+│               └── data-2008-01-01
+├── fileinput
+│   ├── a
+│   └── dir
+│       └── b
+├── hive
+│   ├── README
+│   ├── dummy.txt
+│   ├── joins
+│   │   ├── sales.txt
+│   │   └── things.txt
+│   ├── partitions
+│   │   ├── file1
+│   │   ├── file2
+│   │   ├── file3
+│   │   ├── file4
+│   │   ├── file5
+│   │   └── file6
+│   ├── tables
+│   │   ├── users.txt
+│   │   └── users_extended.txt
+│   ├── tmp.txt
+│   ├── types
+│   │   ├── complex.txt
+│   │   └── nested.txt
+│   └── udfs
+│       ├── arrays.txt
+│       ├── fruit.txt
+│       ├── max1.txt
+│       └── max2.txt
+├── metoffice
+│   ├── aberporthdata.txt
+│   ├── armaghdata.txt
+│   ├── bradforddata.txt
+│   ├── braemardata.txt
+│   ├── cambridgedata.txt
+│   ├── cardiffdata.txt
+│   ├── durhamdata.txt
+│   ├── eastbournedata.txt
+│   ├── greenwichdata.txt
+│   ├── hurndata.txt
+│   ├── lerwickdata.txt
+│   ├── leucharsdata.txt
+│   ├── newtonriggdata.txt
+│   ├── oxforddata.txt
+│   ├── paisleydata.txt
+│   ├── ringwaydata.txt
+│   ├── rossonwyedata.txt
+│   ├── shawburydata.txt
+│   ├── sheffielddata.txt
+│   ├── southamptondata.txt
+│   ├── stmawgandata.txt
+│   ├── stornowaydata.txt
+│   ├── suttonbonningtondata.txt
+│   ├── tireedata.txt
+│   ├── valleydata.txt
+│   └── yeoviltondata.txt
+├── ncdc
+│   ├── all
+│   │   ├── 1901.gz
+│   │   └── 1902.gz
+│   ├── metadata
+│   │   ├── ish-history.txt
+│   │   └── stations-fixed-width.txt
+│   ├── micro
+│   │   └── sample.txt
+│   ├── micro-tab
+│   │   ├── sample.txt
+│   │   ├── sample2.txt
+│   │   └── sample_corrupt.txt
+│   ├── sample.txt
+│   └── sample.txt.gz
+├── pig
+│   ├── combine
+│   │   ├── A
+│   │   └── B
+│   ├── corrupt
+│   │   └── missing_fields
+│   ├── foreach
+│   │   └── A
+│   ├── group
+│   │   └── A
+│   ├── join
+│   │   ├── A
+│   │   └── B
+│   ├── multiquery
+│   │   └── A
+│   ├── nested
+│   │   ├── A
+│   │   └── B
+│   ├── pairwise
+│   │   └── postings
+│   ├── schema
+│   │   └── A
+│   ├── sort
+│   │   └── A
+│   ├── tuples
+│   │   └── A
+│   ├── types
+│   │   ├── A
+│   │   ├── B
+│   │   ├── C
+│   │   └── one
+│   └── udfs
+│       └── A
+├── smallfiles
+│   ├── a
+│   ├── b
+│   ├── c
+│   ├── d
+│   ├── e
+│   └── f
+└── wikipedia
+    ├── example.xml
+    └── sample.xml
+
+41 directories, 94 files

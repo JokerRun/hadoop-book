@@ -1,0 +1,125 @@
+.
+├── README
+├── bin
+│   ├── check_expected.sh
+│   ├── check_manuscript.py
+│   ├── check_manuscript.sh
+│   ├── generate_listings.sh
+│   ├── grunter.sh
+│   ├── hiver.sh
+│   ├── phragmite_db.pl
+│   ├── phragmite_hive.py
+│   └── phragmite_pig.py
+├── conf
+│   ├── local
+│   │   ├── capacity-scheduler.xml
+│   │   ├── configuration.xsl
+│   │   ├── container-executor.cfg
+│   │   ├── core-site.xml
+│   │   ├── hadoop-env.cmd
+│   │   ├── hadoop-env.sh
+│   │   ├── hadoop-metrics.properties
+│   │   ├── hadoop-metrics2.properties
+│   │   ├── hadoop-policy.xml
+│   │   ├── hdfs-site.xml
+│   │   ├── httpfs-env.sh
+│   │   ├── httpfs-log4j.properties
+│   │   ├── httpfs-signature.secret
+│   │   ├── httpfs-site.xml
+│   │   ├── log4j.properties
+│   │   ├── mapred-env.cmd
+│   │   ├── mapred-env.sh
+│   │   ├── mapred-queues.xml.template
+│   │   ├── mapred-site.xml
+│   │   ├── mapred-site.xml.template
+│   │   ├── slaves
+│   │   ├── ssl-client.xml.example
+│   │   ├── ssl-server.xml.example
+│   │   ├── yarn-env.cmd
+│   │   ├── yarn-env.sh
+│   │   └── yarn-site.xml
+│   └── pseudo
+│       ├── capacity-scheduler.xml
+│       ├── capacity-scheduler.xml.old
+│       ├── configuration.xsl
+│       ├── container-executor.cfg
+│       ├── core-site.xml
+│       ├── fair-scheduler.xml
+│       ├── hadoop-env.cmd
+│       ├── hadoop-env.sh
+│       ├── hadoop-metrics.properties
+│       ├── hadoop-metrics2.properties
+│       ├── hadoop-policy.xml
+│       ├── hdfs-site.xml
+│       ├── httpfs-env.sh
+│       ├── httpfs-log4j.properties
+│       ├── httpfs-signature.secret
+│       ├── httpfs-site.xml
+│       ├── log4j.properties
+│       ├── mapred-env.cmd
+│       ├── mapred-env.sh
+│       ├── mapred-queues.xml.template
+│       ├── mapred-site.xml
+│       ├── mapred-site.xml.template
+│       ├── slaves
+│       ├── ssl-client.xml.example
+│       ├── ssl-server.xml.example
+│       ├── yarn-env.cmd
+│       ├── yarn-env.sh
+│       └── yarn-site.xml
+├── expected
+│   └── ch11
+│       └── grunt
+│           ├── combine_schema.xml
+│           ├── combine_union.xml
+│           ├── foreach_generate.xml
+│           ├── group_all.xml
+│           ├── group_dump.xml
+│           ├── group_expression.xml
+│           ├── join_cogroup.xml
+│           ├── join_cogroup_flatten.xml
+│           ├── join_cogroup_inner.xml
+│           ├── join_cogroup_join.xml
+│           ├── join_dump.xml
+│           ├── join_frj.xml
+│           ├── join_join.xml
+│           ├── max_temp_describe_records.xml
+│           ├── max_temp_dump_grouped_records.xml
+│           ├── max_temp_dump_records.xml
+│           ├── max_temp_filter_records.xml
+│           ├── max_temp_load.xml
+│           ├── max_temp_max_temp.xml
+│           ├── max_temp_result.xml
+│           ├── missing_fields.xml
+│           ├── null_corrupt.xml
+│           ├── null_count.xml
+│           ├── null_dump.xml
+│           ├── null_split.xml
+│           ├── null_undetected.xml
+│           ├── schema_absent.xml
+│           ├── schema_absent_projected.xml
+│           ├── schema_names_only.xml
+│           ├── schema_one_type_only.xml
+│           ├── schema_types.xml
+│           ├── set_debug_on.xml
+│           ├── sort_dump.xml
+│           ├── sort_limit.xml
+│           ├── sort_no_order.xml
+│           ├── sort_order.xml
+│           ├── store_colon_delimited.xml
+│           ├── stream_cut.xml
+│           ├── udfs_invoke_long.xml
+│           ├── udfs_invoke_short.xml
+│           ├── udfs_load.xml
+│           ├── udfs_register.xml
+│           └── udfs_schema.xml
+├── pom.xml
+└── src
+    └── test
+        ├── java
+        │   └── ExamplesIT.java
+        └── resources
+            ├── copyoutput.sh
+            └── setup.sh
+
+11 directories, 111 files
