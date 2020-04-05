@@ -5,9 +5,9 @@
 │       ├── hdfs-site.xml
 │       ├── mapred-site.xml
 │       └── yarn-site.xml
-├── hadoop-cluster.template.xml
-├── hadoop-local.xml
-├── hadoop-localhost.xml
+├── hadoop-cluster.template.xml 	[p157	-	Managing Configuration]
+├── hadoop-local.xml 	[p157	-	Managing Configuration]
+├── hadoop-localhost.xml 	[p157	-	Managing Configuration]
 ├── pig
 │   └── localhost
 │       └── pig.properties
