@@ -10,17 +10,17 @@
 └── src
     ├── main
     │   ├── examples
-    │   │   ├── ConfigurationPrinterSystem.java.input.txt
-    │   │   ├── ConfigurationPrinterWithConf.java.input.txt
-    │   │   ├── ConfigurationPrinterWithConf.java.output.txt
-    │   │   ├── ConfigurationPrinterWithConfAndD.java.input.txt
-    │   │   ├── ConfigurationPrinterWithD.java.input.txt
-    │   │   ├── ConfigurationPrinterWithD.java.output.txt
+    │   │   ├── ConfigurationPrinterSystem.java.input.txt   [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── ConfigurationPrinterWithConf.java.input.txt     [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── ConfigurationPrinterWithConf.java.output.txt    [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── ConfigurationPrinterWithConfAndD.java.input.txt     [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── ConfigurationPrinterWithD.java.input.txt    [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── ConfigurationPrinterWithD.java.output.txt   [p159   -   GenericOptionsParser, Tool, and ToolRunner]
     │   │   ├── MaxTemperatureDriver.java.input.txt
     │   │   ├── MaxTemperatureDriverV2.ignore
-    │   │   │   └── input.txt
+    │   │   │   └── input.txt   [p167   -   Running a Job in a Local Job Runner]
     │   │   ├── MaxTemperatureDriverV2GOP.ignore
-    │   │   │   └── input.txt
+    │   │   │   └── input.txt   [p167   -   Running a Job in a Local Job Runner]
     │   │   ├── MaxTemperatureDriverV3
     │   │   │   ├── input.txt
     │   │   │   └── output
@@ -30,42 +30,42 @@
     │   │       └── output
     │   │           └── part-r-00000
     │   ├── java
-    │   │   ├── ConfigurationPrinter.java
-    │   │   ├── LoggingDriver.java
-    │   │   ├── LoggingIdentityMapper.java
+    │   │   ├── ConfigurationPrinter.java   [p159   -   GenericOptionsParser, Tool, and ToolRunner]
+    │   │   ├── LoggingDriver.java  [p178   -   Hadoop Logs]
+    │   │   ├── LoggingIdentityMapper.java  [p178   -   Hadoop Logs]
     │   │   ├── v1
-    │   │   │   ├── MaxTemperatureMapper.java
-    │   │   │   └── MaxTemperatureReducer.java
+    │   │   │   ├── MaxTemperatureMapper.java   [p163   -   Mapper]
+    │   │   │   └── MaxTemperatureReducer.java   [p164/165   -   Reducer]
     │   │   ├── v2
-    │   │   │   ├── MaxTemperatureDriver.java
-    │   │   │   ├── MaxTemperatureMapper.java
-    │   │   │   └── NcdcRecordParser.java
+    │   │   │   ├── MaxTemperatureDriver.java   [p166   -   Running a Job in a Local Job Runner]
+    │   │   │   ├── MaxTemperatureMapper.java   [p164   -   Mapper]
+    │   │   │   └── NcdcRecordParser.java   [p163   -   Mapper]
     │   │   ├── v3
-    │   │   │   ├── MaxTemperatureDriver.java
-    │   │   │   └── MaxTemperatureMapper.java
+    │   │   │   ├── MaxTemperatureDriver.java   [p175   -   Debugging a Job]
+    │   │   │   └── MaxTemperatureMapper.java   [p175   -   Debugging a Job]
     │   │   └── v4
-    │   │       ├── MaxTemperatureDriver.java
-    │   │       ├── MaxTemperatureMapper.java
-    │   │       └── NcdcRecordParser.java
+    │   │       ├── MaxTemperatureDriver.java   [p177/p178   -   Debugging a Job]
+    │   │       ├── MaxTemperatureMapper.java   [p177/p178   -   Debugging a Job]
+    │   │       └── NcdcRecordParser.java    [p177/p178   -   Debugging a Job]
     │   └── resources
-    │       ├── configuration-1.xml
-    │       ├── configuration-2.xml
+    │       ├── configuration-1.xml     [p154   -   The Configuration API]
+    │       ├── configuration-2.xml     [p154   -   The Configuration API]
     │       ├── max-temp-workflow
-    │       │   └── workflow.xml
-    │       └── max-temp-workflow.properties
+    │       │   └── workflow.xml     [p185  -   Defining an Oozie workflow]
+    │       └── max-temp-workflow.properties     [p185  -   Defining an Oozie workflow]
     └── test
         ├── java
-        │   ├── MultipleResourceConfigurationTest.java
-        │   ├── SingleResourceConfigurationTest.java
+        │   ├── MultipleResourceConfigurationTest.java  [p155   -   Combining Resources]
+        │   ├── SingleResourceConfigurationTest.java    [p154   -   The Configuration API]
         │   ├── v1
-        │   │   ├── MaxTemperatureMapperTest.java
-        │   │   └── MaxTemperatureReducerTest.java
+        │   │   ├── MaxTemperatureMapperTest.java   [p162/163   -   Mapper]
+        │   │   └── MaxTemperatureReducerTest.java   [p164   -   Reducer]
         │   ├── v2
-        │   │   ├── MaxTemperatureDriverMiniTest.java
-        │   │   ├── MaxTemperatureDriverTest.java
+        │   │   ├── MaxTemperatureDriverMiniTest.java    [p168  -   Testing the Driver using a “mini-” cluster]
+        │   │   ├── MaxTemperatureDriverTest.java    [p167  -   Testing the Driver]
         │   │   └── MaxTemperatureMapperTest.java
         │   └── v4
-        │       └── MaxTemperatureMapperTest.java
+        │       └── MaxTemperatureMapperTest.java    [p177   -   Debugging a Job]
         └── resources
             └── expected.txt
 
